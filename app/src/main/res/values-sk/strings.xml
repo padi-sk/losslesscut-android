@@ -4,7 +4,7 @@
     <string name="add_video">Pridať médiá</string>
     <string name="load_media">Načítať médiá</string>
     <string name="load_media_title">Úprava médií bez prekódovania</string>
-    <string name="load_media_description">Orezať, otáčať a exportovať do zariadenia.</string>
+    <string name="load_media_description">Strihajte, otáčajte a exportujte do zariadenia.</string>
     <string name="recent_sessions">Posledné relácie</string>
     <string name="no_recent_sessions">Žiadne nedávne relácie</string>
     <string name="no_recent_sessions_desc">Tu sa zobrazia vaše rozpracované a nedávne úpravy.</string>
@@ -50,8 +50,8 @@
     <string name="snapshot">Snímka</string>
     <string name="rotate">Otočiť</string>
     <string name="duration_format">%1$s / %2$s</string>
-    <string name="snap_mode_off">Prichytávanie vypnuté</string>
     <string name="snap_mode_on">Prichytávanie zapnuté</string>
+    <string name="snap_mode_off">Prichytávanie vypnuté</string>
     <string name="invalid_video_uri">Neplatná adresa URI videa</string>
     <string name="export_rotation_offset">Posun otáčania pri exportovaní: %1$d°</string>
     <string name="snapshot_saved">Snímka uložená: %1$s</string>
@@ -83,9 +83,9 @@
     <string name="track_audio_stereo">Stereo</string>
     <string name="track_audio_channels">%1$d ch</string>
     <string name="track_other">Ostatné</string>
-    <string name="precise_mode_coming_soon">Režim „Precise“ bude k dispozícii vo verzii 2.0</string>
+    <string name="precise_mode_coming_soon">Režim „Precise“ bude dostupný vo verzii 2.0</string>
     <string name="error_load_video">Načítanie videa sa nepodarilo: %1$s</string>
-    <string name="error_waveform_not_ready">Priebeh zvuku sa stále načítava, počkajte prosím</string>
+    <string name="error_waveform_not_ready">Zvuková krivka sa stále načítava, počkajte, prosím</string>
     <string name="error_no_segments_export">Nie sú žiadne segmenty na export</string>
     <string name="error_create_file">Nie je možné vytvoriť výstupný súbor</string>
     <string name="error_output_folder_access">Nepodarilo sa získať prístup k vybranému priečinku.</string>
@@ -93,11 +93,11 @@
     <string name="error_cannot_delete_last">Posledné zostávajúce video sa nedá vymazať</string>
     <string name="error_export_failed">Export sa nepodaril: %1$s</string>
     <string name="export_partial_success">Exportovalo sa %1$d videí. Chyby: %2$s</string>
-    <string name="export_success">Úspešne sa exportovalo(i) %1$d video(á) do priečinka Movies/LosslessCut</string>
+    <string name="export_success">Úspešne exportované %1$d videá do priečinka Movies/LosslessCut</string>
     <string name="set_in_point">Nastaviť začiatok</string>
     <string name="set_out_point">Nastaviť koniec</string>
     <string name="about_title">O aplikácii</string>
-    <string name="about_message"><![CDATA[<b>LosslessCut v%1$s</b><br><br>Rýchle, bezstratové strihanie videa pomocou natívnych rozhraní API systému Android.<br><br><b>Licencie open source:</b><br>- AndroidX Media3 (Apache 2.0)<br> - Material Components (Apache 2.0)<br><br><b>Zásady ochrany osobných údajov:</b><br>Táto aplikácia nezhromažďuje žiadne osobné údaje. Spracovanie prebieha výlučne na zariadení.<br><a href=\"https://github.com/tazztone/lossless-video-cut/blob/main/docs/privacy.html\">Prečítajte si úplné zásady</a>]]></string>
+    <string name="about_message">&lt;b&gt;LosslessCut v%1$s&lt;/b&gt;&lt;br&gt;&lt;br&gt;Rýchle, bezstratové strihanie videí pomocou natívnych rozhraní API systému Android.&lt;br&gt;&lt;br&gt;&lt;b&gt;Licencie open source:&lt;/b&gt;&lt;br&gt;- AndroidX Media3 (Apache 2.0)&lt;br&gt; - Material Components (Apache 2.0)&lt;br&gt;&lt;br&gt;&lt;b&gt;Zásady ochrany osobných údajov:&lt;/b&gt;&lt;br&gt;Táto aplikácia nezhromažďuje žiadne osobné údaje. Spracovanie prebieha výlučne v zariadení.&lt;br&gt;&lt;a href=\"https://github.com/tazztone/lossless-video-cut/blob/main/docs/privacy.html\"&gt;Prečítajte si úplné znenie Zásady ochrany osobných údajov&lt;/a&gt;</string>
     <string name="permissions_required_title">Požadované oprávnenia</string>
     <string name="permissions_required_message">Vyberte súbory pomocou systémového výberového nástroja. Aplikácia získa prístup iba k položkám a zložkám, ktoré vyberiete.</string>
     <string name="grant_permission">Udeliť oprávnenie</string>
@@ -107,7 +107,7 @@
     <string name="settings">Nastavenia</string>
     <string name="category_editing">Pracovný postup a úpravy</string>
     <string name="category_export">Export a úložisko</string>
-    <string name="category_performance">Výkon a cache analýzy</string>
+    <string name="category_performance">Výkon a analýza vyrovnávacej pamäte</string>
     <string name="category_appearance">Vzhľad a jazyk</string>
     <string name="category_about">O aplikácii a systéme</string>
     <string name="lossless_mode_status_title">Bezstratové rozdelenie kľúčových snímok</string>
@@ -117,15 +117,15 @@
     <string name="format_png_lossless">PNG (bezstratový)</string>
     <string name="format_jpeg_compressed">JPEG (komprimovaný)</string>
     <string name="about_version">LosslessCut Mobile v%1$s</string>
-    <string name="about_engine_title">Mediálny engine</string>
+    <string name="about_engine_title">Mediálny modul</string>
     <string name="about_engine_desc">Android MediaCodec a MediaMuxer (s hardvérovou akceleráciou)</string>
     <string name="about_github">Repozitár GitHub</string>
     <string name="about_license">Licencie otvoreného zdrojového kódu</string>
     <string name="clearing_cache">Vymazávanie vyrovnávacej pamäte…</string>
     <string name="setting_auto_extract_waveforms">Automaticky extrahovať zvukové vlny</string>
     <string name="setting_auto_extract_waveforms_desc">Pri načítaní súboru automaticky extrahovať zvukové vlny na účely vykreslenia grafov na časovej osi.</string>
-    <string name="setting_visual_sample_interval">Predvolený interval vizuálneho vzorkovania</string>
-    <string name="setting_visual_sample_interval_desc">Predvolená frekvencia detekcie vizuálnych scén. Nižšie hodnoty zvyšujú presnosť; vyššie hodnoty zrýchľujú analýzu.</string>
+    <string name="setting_visual_sample_interval">Predvolený interval vzorkovania obrazu</string>
+    <string name="setting_visual_sample_interval_desc">Predvolená frekvencia detekcie obrazových scén. Nižšie hodnoty zvyšujú presnosť; vyššie hodnoty zrýchľujú analýzu.</string>
     <string name="nudge_backward">Predchádzajúci kľúčový snímok</string>
     <string name="nudge_forward">Ďalší kľúčový snímok</string>
     <string name="hint_pinch_to_zoom">Priblíženie časovej osi dvoma prstami</string>
@@ -148,7 +148,7 @@
     <string name="error_invalid_video_uri_msg">Neplatná adresa URI videa</string>
     <string name="error_failed_open_pfd">Nepodarilo sa otvoriť výstupný súbor</string>
     <string name="error_no_tracks_found">V súbore neboli zistené žiadne obrazové ani zvukové stopy</string>
-    <string name="export_success_audio">Úspešne sa exportovalo(i) %1$d zvukový(é) súbor(y) do priečinka Music/LosslessCut</string>
+    <string name="export_success_audio">Úspešne exportované %1$d zvukové súbory do priečinka Music/LosslessCut</string>
     <string name="audio_only_placeholder_desc">Zvukový súbor: %1$s</string>
     <string name="error_incompatible_format">Súbor „%1$s“ má nekompatibilný formát a bol preskočený.</string>
     <string name="error_no_valid_clips">Neimportovali sa žiadne platné videá.</string>
@@ -162,7 +162,7 @@
     <string name="skip">Preskočiť</string>
     <string name="speed_format">%.1fx</string>
     <string name="playback_speed">Rýchlosť prehrávania</string>
-    <string name="export_folder">Exportovať priečinok</string>
+    <string name="export_folder">Priečinok pre export videa</string>
     <string name="session_restored">Obnovená predchádzajúca relácia</string>
     <string name="session_restored_missing_files">Predchádzajúca relácia bola obnovená; %1$d zdrojové súbory neboli dostupné.</string>
     <string name="session_save_failed">Nepodarilo sa uložiť reláciu úprav: %1$s</string>
@@ -191,18 +191,18 @@
     <string name="jpg_quality">Kvalita JPG</string>
     <string name="undo_limit">Limit krokov späť</string>
     <string name="theme_accent_color">Zvýrazňovacia farba</string>
-    <string name="default_export_path">Predvolené (Filmy/LosslessCut)</string>
+    <string name="default_export_path">Predvolené (Movies/LosslessCut)</string>
     <string name="change">Zmeniť</string>
     <string name="reset">Vynulovať</string>
     <string name="smart_cut">Inteligentný strih</string>
     <string name="silence">Ticho</string>
-    <string name="visual">Visual (Beta)</string>
+    <string name="visual">Obrazová analýza (beta)</string>
     <string name="detect">Zistiť</string>
     <string name="strategy">Stratégia</string>
     <string name="analyzing_video">Analyzovanie video obsahu…</string>
     <string name="analyzing_progress">Analýza: %1$d / %2$d vzorkovaných snímok</string>
     <string name="analyzing_progress_eta">Analýza: %1$d / %2$d vzorkovaných snímok (predpokladaný čas dokončenia: %3$s)</string>
-    <string name="error_visual_detection_failed">Vizuálna analýza zlyhala</string>
+    <string name="error_visual_detection_failed">Obrazová analýza zlyhala</string>
     <string name="sensitivity">Citlivosť</string>
     <string name="luma_threshold">Prahová hodnota jasu</string>
     <string name="diff_threshold">Prahová hodnota rozdielu</string>
@@ -216,7 +216,7 @@
     <string name="mode_keep_matching">Udržať</string>
     <string name="scene_change">Zmena scény</string>
     <string name="black_frames">Čierne snímky</string>
-    <string name="freeze_frame">Zrazený snímok</string>
+    <string name="freeze_frame">Zamrznutý snímok</string>
     <string name="blur_quality">Kvalita rozmazania</string>
     <string name="tooltip_strategy_scene">Rozpoznáva ostré prechody medzi zábermi kamery. Najvhodnejšie na rozdelenie filmov alebo záznamov z viacerých kamier na jednotlivé scény.</string>
     <string name="tooltip_strategy_black">Rozpoznáva úplne tmavé snímky. Je to užitočné pri vyhľadávaní a odstraňovaní prechodov do čiernej alebo prázdnych medzier.</string>
@@ -225,7 +225,7 @@
     <string name="tooltip_sample_interval">Frekvencia analýzy. Nižšie intervaly (100–200 ms) zvyšujú presnosť, ale analýza prebieha pomalšie; vyššie intervaly (500 ms a viac) sú rýchlejšie, ale môžu prehliadnuť rýchle strihy.</string>
     <string name="tooltip_sensitivity">Detekčný prah. Nižšie hodnoty zachytávajú jemné zmeny; vyššie hodnoty reagujú len na výrazné, zreteľné zmeny.</string>
     <string name="tooltip_min_segment">Minimálna dĺžka uchovávaných segmentov. Zvýšením tejto hodnoty zabránite vzniku krátkych, nesúvislých fragmentov na časovej osi.</string>
-    <string name="tooltip_noise_threshold" formatted="false">Hladina zvuku, pod ktorou sa zvuk považuje za ticho. Túto hodnotu zvýšte, ak vám hluk v pozadí (hučanie, klimatizácia, dýchanie) bráni v strihaní.</string>
+    <string name="tooltip_noise_threshold">Hladina zvuku, pod ktorou sa zvuk považuje za ticho. Túto hodnotu zvýšte, ak vám hluk v pozadí (hučanie, klimatizácia, dýchanie) bráni v strihaní.</string>
     <string name="tooltip_min_segment_audio">Minimálna dĺžka zachovaných zvukových segmentov. Nižšie hodnoty zachovávajú krátke slová; vyššie hodnoty odfiltrujú krátke zvuky, ako je kašeľ alebo nárazy do mikrofónu.</string>
     <string name="tooltip_min_silence_duration">Minimálna dĺžka ticha potrebná na spustenie strihu. Nižšie hodnoty spôsobujú rýchle tempo; vyššie hodnoty zachovávajú prirodzené pauzy.</string>
     <string name="tooltip_padding_prefix">Výplň pridaná pred začiatkom zachovaného segmentu. Zabraňuje tomu, aby sa začiatky slov javili ako odrezané.</string>
@@ -235,7 +235,7 @@
     <string name="tooltip_silence_tab">Zisťuje a odstraňuje tiché pauzy. Ideálne pre podcasty, prednášky alebo videá s hovoriacou osobou.</string>
     <string name="tooltip_visual_tab">Beta: vyhľadáva prechody medzi scénami, čierne snímky alebo zamrznuté video. Výsledky môže byť potrebné skontrolovať.</string>
     <string name="content_desc_link_padding">Prepojiť odsadenie posuvníkov</string>
-    <string name="error_visual_on_audio">Vizuálna detekcia nie je k dispozícii pre zvukové súbory</string>
+    <string name="error_visual_on_audio">Obrazová detekcia nie je k dispozícii pre zvukové súbory</string>
     <string name="short_in">Začiatok</string>
     <string name="short_out">Koniec</string>
     <string name="redo">Zopakovať</string>
@@ -244,11 +244,11 @@
     <string name="reset_segments_confirm_message">Naozaj chcete vynulovať všetky strihy a obnoviť jediný segment v tomto videu?</string>
     <string name="category_cache">Cache analýzy</string>
     <string name="setting_cache_capacity">Kapacita vyrovnávacej pamäte</string>
-    <string name="setting_cache_capacity_desc">Maximálny priestor na disku vyhradený pre trvalé údaje o zvukoch vlnách a údaje z vizuálnej analýzy.</string>
+    <string name="setting_cache_capacity_desc">Maximálny priestor na úložisku vyhradený pre trvalé údaje o zvukových vlnách a pre údaje z obrazovej analýzy.</string>
     <string name="setting_cache_retention">Doba uchovávania v cache</string>
     <string name="setting_cache_retention_desc">Maximálny počet dní, počas ktorých sa majú uchovávať nevyužité súbory vyrovnávacej pamäte analýzy.</string>
-    <string name="setting_cache_usage">Aktuálne využitie vyrovnávacej pamäte</string>
-    <string name="clear_analysis_cache">Vymazať vyrovnávaciu pamäť analýzy</string>
+    <string name="setting_cache_usage">Aktuálne využitie cache</string>
+    <string name="clear_analysis_cache">Vyčistiť cache analýzy</string>
     <string name="clear_cache_confirm_title">Vyčistiť vyrovnávaciu pamäť analýzy?</string>
     <string name="clear_cache_confirm_message">Naozaj chcete vymazať všetky trvalo uložené súbory vyrovnávacej pamäte analýzy? Údaje v aktívnom editore zostanú nezmenené.</string>
     <string name="category_language_region">Jazyk a región</string>
