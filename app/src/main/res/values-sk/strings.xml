@@ -5,11 +5,11 @@
     <string name="load_media">Načítať médiá</string>
     <string name="load_media_title">Úprava médií bez prekódovania</string>
     <string name="load_media_description">Strihajte, otáčajte a exportujte do zariadenia.</string>
-    <string name="recent_sessions">Posledné relácie</string>
+    <string name="recent_sessions">Nedávne projekty</string>
     <string name="no_recent_sessions">Žiadne nedávne relácie</string>
     <string name="no_recent_sessions_desc">Tu sa zobrazia vaše rozpracované a nedávne úpravy.</string>
     <string name="remove_session">Odstrániť reláciu</string>
-    <string name="session_removed">Relácia bola odstránená</string>
+    <string name="session_removed">Projekt bol odstránený</string>
     <string name="supported_formats_title">Podporované formáty</string>
     <string name="supported_formats_explanation">Priame kopírovanie streamu funguje s kontajnermi .mp4 a .m4a (H.264, HEVC, AAC) a umožňuje export bez strát a bez potreby opätovného kódovania.</string>
     <string name="resume_session_description">Pokračovať v úprave %1$s</string>
@@ -22,8 +22,8 @@
     <string name="session_unavailable">Mediálny obsah tejto relácie už nie je k dispozícii.</string>
     <string name="create_engaging_videos">Rýchlo. Bez strát. Priamo v zariadení.</string>
     <string name="home">Domov</string>
-    <string name="trim">Orezanie</string>
-    <string name="split">Rozdelenie</string>
+    <string name="trim">Strih</string>
+    <string name="split">Rozdeliť</string>
     <string name="effects">Efekty</string>
     <string name="export">Exportovať</string>
     <string name="delete">Odstrániť</string>
@@ -64,7 +64,7 @@
     <string name="export_actions_title">Exportovať médiá</string>
     <string name="close">Zatvoriť</string>
     <string name="export_output_section">VÝSTUP</string>
-    <string name="combined_output">Súhrnný výsledok</string>
+    <string name="combined_output">Kombinovaný výsledok</string>
     <string name="combined_output_description">Zlúčiť všetky ponechané úseky do jedného súboru MP4/M4A.</string>
     <string name="separate_output">Samostatné súbory</string>
     <string name="separate_output_description">Exportovať každý ponechaný úsek z vybraného videa ako samostatný súbor vo formáte MP4/M4A.</string>
@@ -97,7 +97,7 @@
     <string name="set_in_point">Nastaviť začiatok</string>
     <string name="set_out_point">Nastaviť koniec</string>
     <string name="about_title">O aplikácii</string>
-    <string name="about_message">&lt;b&gt;LosslessCut v%1$s&lt;/b&gt;&lt;br&gt;&lt;br&gt;Rýchle, bezstratové strihanie videí pomocou natívnych rozhraní API systému Android.&lt;br&gt;&lt;br&gt;&lt;b&gt;Licencie open source:&lt;/b&gt;&lt;br&gt;- AndroidX Media3 (Apache 2.0)&lt;br&gt; - Material Components (Apache 2.0)&lt;br&gt;&lt;br&gt;&lt;b&gt;Zásady ochrany osobných údajov:&lt;/b&gt;&lt;br&gt;Táto aplikácia nezhromažďuje žiadne osobné údaje. Spracovanie prebieha výlučne v zariadení.&lt;br&gt;&lt;a href=\"https://github.com/tazztone/lossless-video-cut/blob/main/docs/privacy.html\"&gt;Prečítajte si úplné znenie Zásady ochrany osobných údajov&lt;/a&gt;</string>
+    <string name="about_message">&lt;b&gt;LosslessCut v%1$s&lt;/b&gt;&lt;br&gt;&lt;br&gt;Rýchle, bezstratové strihanie videí pomocou natívnych rozhraní API systému Android.&lt;br&gt;&lt;br&gt;&lt;b&gt;Licencie open source:&lt;/b&gt;&lt;br&gt;- AndroidX Media3 (Apache 2.0)&lt;br&gt; - Material Components (Apache 2.0)&lt;br&gt;&lt;br&gt;&lt;b&gt;Zásady ochrany osobných údajov:&lt;/b&gt;&lt;br&gt;Táto aplikácia nezhromažďuje žiadne osobné údaje. Spracovanie prebieha výlučne v zariadení.&lt;br&gt;&lt;a href=\"https://github.com/tazztone/lossless-video-cut/blob/main/docs/privacy.html\"&gt;Prečítajte si úplné znenie&lt;/a&gt;</string>
     <string name="permissions_required_title">Požadované oprávnenia</string>
     <string name="permissions_required_message">Vyberte súbory pomocou systémového výberového nástroja. Aplikácia získa prístup iba k položkám a zložkám, ktoré vyberiete.</string>
     <string name="grant_permission">Udeliť oprávnenie</string>
@@ -123,18 +123,18 @@
     <string name="about_license">Licencie otvoreného zdrojového kódu</string>
     <string name="clearing_cache">Vymazávanie vyrovnávacej pamäte…</string>
     <string name="setting_auto_extract_waveforms">Automaticky extrahovať zvukové vlny</string>
-    <string name="setting_auto_extract_waveforms_desc">Pri načítaní súboru automaticky extrahovať zvukové vlny na účely vykreslenia grafov na časovej osi.</string>
+    <string name="setting_auto_extract_waveforms_desc">Pri načítaní súboru automaticky extrahovať zvukové vlny na účely vykreslenia grafu na časovej osi.</string>
     <string name="setting_visual_sample_interval">Predvolený interval vzorkovania obrazu</string>
     <string name="setting_visual_sample_interval_desc">Predvolená frekvencia detekcie obrazových scén. Nižšie hodnoty zvyšujú presnosť; vyššie hodnoty zrýchľujú analýzu.</string>
     <string name="nudge_backward">Predchádzajúci kľúčový snímok</string>
     <string name="nudge_forward">Ďalší kľúčový snímok</string>
-    <string name="hint_pinch_to_zoom">Priblíženie časovej osi dvoma prstami</string>
+    <string name="hint_pinch_to_zoom">Priblíženie časovej osi</string>
     <string name="lossless_mode_snap">Priradiť k kľúčovým snímkam</string>
     <string name="lossless_mode_desc">Uzamkne strihy na kľúčové snímky pre bezstratový export bez opätovného kódovania.</string>
     <string name="error_segment_too_small_split">Segment je príliš malý na to, aby sa dal ďalej rozdeliť</string>
     <string name="exit_confirm_title">Neuložené zmeny</string>
     <string name="exit_confirm_message">Máte neuložené zmeny. Naozaj ich chcete zrušiť a ukončiť aplikáciu?</string>
-    <string name="exit_confirm_discard">Odmietnuť</string>
+    <string name="exit_confirm_discard">Odstrániť</string>
     <string name="exit_confirm_keep_editing">Pokračovať v úpravách</string>
     <string name="accessibility_seek_forward">Posunúť dopredu</string>
     <string name="accessibility_seek_backward">Posunúť dozadu</string>
@@ -163,8 +163,8 @@
     <string name="speed_format">%.1fx</string>
     <string name="playback_speed">Rýchlosť prehrávania</string>
     <string name="export_folder">Priečinok pre export videa</string>
-    <string name="session_restored">Obnovená predchádzajúca relácia</string>
-    <string name="session_restored_missing_files">Predchádzajúca relácia bola obnovená; %1$d zdrojové súbory neboli dostupné.</string>
+    <string name="session_restored">Obnovený predchádzajúci projekt</string>
+    <string name="session_restored_missing_files">Predchádzajúci projekt bol obnovený; %1$d zdrojové súbory nie sú k dispozícii.</string>
     <string name="session_save_failed">Nepodarilo sa uložiť reláciu úprav: %1$s</string>
     <string name="restore_session_title">Obnoviť reláciu</string>
     <string name="restore_session_message">Chcete obnoviť predchádzajúce úpravy tohto súboru?</string>
@@ -193,8 +193,8 @@
     <string name="theme_accent_color">Zvýrazňovacia farba</string>
     <string name="default_export_path">Predvolené (Movies/LosslessCut)</string>
     <string name="change">Zmeniť</string>
-    <string name="reset">Vynulovať</string>
-    <string name="smart_cut">Inteligentný strih</string>
+    <string name="reset">Obnoviť</string>
+    <string name="smart_cut">Chytrý strih</string>
     <string name="silence">Ticho</string>
     <string name="visual">Obrazová analýza (beta)</string>
     <string name="detect">Zistiť</string>
@@ -236,11 +236,11 @@
     <string name="tooltip_visual_tab">Beta: vyhľadáva prechody medzi scénami, čierne snímky alebo zamrznuté video. Výsledky môže byť potrebné skontrolovať.</string>
     <string name="content_desc_link_padding">Prepojiť odsadenie posuvníkov</string>
     <string name="error_visual_on_audio">Obrazová detekcia nie je k dispozícii pre zvukové súbory</string>
-    <string name="short_in">Začiatok</string>
-    <string name="short_out">Koniec</string>
+    <string name="short_in">Pred</string>
+    <string name="short_out">Za</string>
     <string name="redo">Zopakovať</string>
-    <string name="reset_segments">Vynulovať</string>
-    <string name="reset_segments_confirm_title">Vynulovať?</string>
+    <string name="reset_segments">Obnoviť</string>
+    <string name="reset_segments_confirm_title">Obnoviť?</string>
     <string name="reset_segments_confirm_message">Naozaj chcete vynulovať všetky strihy a obnoviť jediný segment v tomto videu?</string>
     <string name="category_cache">Cache analýzy</string>
     <string name="setting_cache_capacity">Kapacita vyrovnávacej pamäte</string>
@@ -253,8 +253,8 @@
     <string name="clear_cache_confirm_message">Naozaj chcete vymazať všetky trvalo uložené súbory vyrovnávacej pamäte analýzy? Údaje v aktívnom editore zostanú nezmenené.</string>
     <string name="category_language_region">Jazyk a región</string>
     <string name="setting_language">Jazyk aplikácie</string>
-    <string name="setting_language_desc">Vyberte jazyk, ktorý sa používa v programe LosslessCut</string>
-    <string name="language_system">Predvolené nastavenie systému</string>
+    <string name="setting_language_desc">Vyberte jazyk, ktorý sa má používať v aplikácii LosslessCut</string>
+    <string name="language_system">Predvolené systémom</string>
     <string name="language_en">Angličtina</string>
     <string name="language_de">Nemčina</string>
     <string name="cache_cleared_success">Cache analýzy bola úspešne vymazaná.</string>
